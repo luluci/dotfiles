@@ -1,0 +1,36 @@
+
+
+// 設定ファイルのバイトコンパイル
+// ファイルを指定してコンパイル
+M-x byte-compile-file (ret)
+<filename>
+
+// ディレクトリを指定してコンパイル
+M-x byte-recompile-directory (ret)
+<dirname>
+
+// コピー関係
+// 範囲選択開始
+C-<space>
+// 範囲選択をコピー
+M-w
+// 貼りつけ
+C-y
+// x回前にコピーした内容をペースト
+M-<x> C-y  // sample: Esc-1 C-y
+
+
+
+// ウィンドウの移動
+C-x-o
+// ウィンドウの削除
+C-x-0
+
+・ C-x b   (switch-to-buffer)      ウインドウのバッファを切り換える...
+・ C-x C-b (list-buffers)          存在しているバッファ一覧を表示...
+・ C-x k   (kill-buffer)           バッファそのものを消去する...
+・ C-x 0   (delete-window)         ウインドウを消去する
+・ C-x 1   (delete-other-windows)  ウインドウを画面いっぱいに広げる
+・ C-x 2   (split-window-vertically) 上下に 2分割 (C-x ^ で広げる)
+・ C-x 3   (split-window-horizontally) 左右に 2分割 (C-x { , C-x } で広げる)
+・ C-x o   (other-window)          カーソルを次のウインドウへ移動 (時計回り)
