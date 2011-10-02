@@ -1,11 +1,16 @@
+# 最初にすべて無効
 /*
 /*.
 
+# 必要なファイルのみ有効
 !/.emacs
 !/.emacs.d
 !/.vim
 !/.vimrc
+!/.gvimrc
 !/.gitconfig
 !/.gitignore
+!/.launcher
 
-
+# 無効(優先度高)
+/.vim/bundle

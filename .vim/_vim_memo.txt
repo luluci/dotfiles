@@ -1,0 +1,10 @@
+・初期化について
+
+■ロードの順番
+  1. vimrc -> $HOME/.vimrc
+  2. (runtimepath)/plugin/**/*.vim
+      runtimepathに指定された各ディレクトリのサブディレクトリplugin以下の.vimファイルを読み込む
+      再帰的にすべてのサブディレクトリを読み込む
+      (:runtime! plugin/**/*.vim と同等の処理)
+  3. gvimrc -> $HOME/.gvimrc
+
