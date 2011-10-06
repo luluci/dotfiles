@@ -22,6 +22,7 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
 Bundle 'Shougo/vimshell'
 Bundle 'Shougo/vimproc'
+Bundle 'thinca/vim-quickrun'
 
 " vim-scripts repos
 " sample: Bundle 'project.tar.gz'

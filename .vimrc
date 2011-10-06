@@ -359,7 +359,9 @@ set runtimepath+=$MY_VIMRUNTIME
 " vundle.vimê›íË
 source $MY_VIMRUNTIME/_vundle.vim
 " NeoComplCacheê›íË
-"source $MY_VIMRUNTIME/_neocomplcache.vim
+source $MY_VIMRUNTIME/_neocomplcache.vim
 " Shellê›íË
 "source $MY_VIMRUNTIME/_shell.vim
 
+" VimShellóp
+let $PATH = $PATH .';'. 'E:\Cygwin\bin'
